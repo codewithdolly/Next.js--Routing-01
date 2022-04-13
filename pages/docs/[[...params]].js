@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 
-const docs = () => {
+const DOCS = () => {
   const router = useRouter();
   const { params =[]} = router.query;
   console.log(params);
@@ -20,4 +20,4 @@ const docs = () => {
   return <div>This is form DOCS</div>;
 };
 
-export default docs;
+export default DOCS;
