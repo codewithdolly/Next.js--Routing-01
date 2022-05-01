@@ -1,3 +1,5 @@
+//catch all route
+
 import React from "react";
 import { useRouter } from "next/router";
 
